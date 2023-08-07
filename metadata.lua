@@ -1,0 +1,28 @@
+return PlaceObj('ModDef', {
+	'title', "Fire in the hole / Mortar rework",
+	'description', "This mod aims to improve mortars in JA3\n\nFeatures\nChoose how many rounds you want to fire (max 3)\nChoose the spread of your rounds\nMore complex mishap and AP calculation where Heavy Weapons, Explosives, Strength, Dexterity and Wisdom are the main factors. (Do not let Kalyna get close to a mortar)\nSlightly changed stats of the HE mortar cartrige. (Lower base damage, wider radius and added suppression)\nChanged order of animations (every round is fired seperately)\n\nKnown Issues\n!important: Do not use the button in the bottom left corner to fire the mortar as it messes up the rework and a vanilla bug makes the mortar ignore the max and min range settings.\nThe Dialogs do not close reliable on Escape (Change Merc or cancel before firing) \nNo night time penalty\nAt the moment the changes are only applies to the player. \n\nIdeas for the future\nBetter AI mortars\nDisplaying to factors which influence the accuracy\nAir Burst\nIllumination rounds\nLinear Targeting\nArtillery Spotters\nLasers\nOffmap Mortars\n\nPlease feel free to add suggestions and tell me if there are some more bugs or incompatibility with other mods.",
+	'image', "Mod/MdfKyQp/Images/Capture (1).png",
+	'last_changes', "First Version",
+	'ignore_files', {
+		"*.git/*",
+		"*.svn/*",
+		"*README.md*",
+	},
+	'id', "MdfKyQp",
+	'content_path', "Mod/MdfKyQp/",
+	'author', "permanent666",
+	'version', 1992,
+	'lua_revision', 233360,
+	'saved_with_revision', 339125,
+	'code', {
+		"Code/Bombard.lua",
+		"Code/CombatAction.lua",
+		"Code/Custom.lua",
+		"Code/MortarOverrides.lua",
+		"InventoryItem/MortarShell_HE.lua",
+		"InventoryItem/MortarInventoryItem.lua",
+	},
+	'saved', 1691374978,
+	'code_hash', 4144006793928110901,
+	'steam_id', "3016260677",
+})
